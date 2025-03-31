@@ -1,0 +1,52 @@
+.env/
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+*.pywz
+*.pyzw
+*.pywz
+
+# Ignore database files
+*.sqlite3
+db.sqlite3
+
+
+# Ignore Django secret key (if using .env file)
+.env
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore migrations cache (optional, but keep migrations folder)
+**/migrations/__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+
+
+
+# Ignore Node.js dependencies (React frontend)
+frontend/node_modules/
+frontend/build/
+
+# Ignore static and media files (optional, if dynamically generated)
+staticfiles/
+media/
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
